@@ -47,4 +47,21 @@ p {
   margin-left: -2.5em;
 }
 
+@media screen and (max-width: 600px) {
+  .App {
+    max-width: none;
+    width: 100%;
+    border-radius: 0;
+    margin: 10px;
+  }
+
+  .code {
+    width: 100%;
+    margin: 0;
+  }
+
+  .text {
+    margin: 0;
+  }
+}
 
